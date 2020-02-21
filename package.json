@@ -12,7 +12,8 @@
     "build": "node build/build.js",
     "package:dev": "webpack --config config/package.dev.config.js",
     "package:prod": "webpack --config config/package.prod.config.js",
-    "package": "npm run package:prod && npm publish && npm run build"
+    "package": "npm run package:prod && npm publish && npm run build",
+    "codereview": "jscpd ./src -c ./.jscpd.json"
   },
   "dependencies": {
     "vue": "^2.5.2",
