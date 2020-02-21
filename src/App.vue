@@ -23,7 +23,7 @@ export default {
   name: "App",
   data() {
     return {
-      msg: `蚂木的UI组件库`
+      msg: `XES-newClass组件库`
     };
   }
 };
