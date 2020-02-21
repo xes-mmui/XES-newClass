@@ -1,0 +1,23 @@
+.mm-toast {
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  background: rgba(0, 0, 0, 0.65);
+  padding: 10px;
+  border-radius: 5px;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.mm-toast-success {
+  background-color: #00d378;
+}
+.mm-toast-error {
+  background-color: #ff8682;
+}
+.mm-toast-warning {
+  background-color: #febd3d;
+}

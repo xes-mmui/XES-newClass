@@ -1,0 +1,85 @@
+$sucColor: #00d378;
+.mm-btn {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  font-size: 14px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 4px;
+  outline: none;
+}
+
+.mm-btn-default {
+  color: #333;
+  border-color: #ddd;
+  background: #fff;
+  font-weight: 400;
+}
+
+.mm-btn-success {
+  border: 1px solid #00d378;
+  color: #00d378;
+
+  &:hover {
+    background-color: #2bde99;
+    color: #fff;
+  }
+}
+
+.mm-btn-error {
+  color: #ff8682;
+  border: 1px solid #ff8682;
+
+  &:hover {
+    background-color: #eb3131;
+    color: #fff;
+  }
+}
+
+.mm-btn-warning {
+  color: #febd3d;
+  border: 1px solid #febd3d;
+
+  &:hover {
+    background-color: #ffba1a;
+    color: #fff;
+  }
+}
+
+.mm-btn:disabled {
+  color: #999;
+  cursor: not-allowed;
+  border-color: #ddd;
+  background: #eee;
+}
+
+.mm-btn-small {
+  padding: 0 5px;
+  font-size: 12px;
+  line-height: 20px;
+  height: 24px;
+}
+
+.mm-btn-big {
+  padding: 0 28px;
+  font-size: 14px;
+  line-height: 38px;
+  height: 40px;
+}
+
+.mm-btn-middle {
+  padding: 0 20px;
+  font-size: 14px;
+  line-height: 34px;
+  height: 36px;
+}
+.mm-btn-circle {
+  border-radius: 20px;
+}
+
+.mm-btn-rectangle {
+  border-radius: 0;
+}
