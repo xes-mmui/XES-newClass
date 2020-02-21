@@ -1,5 +1,14 @@
 <template>
-  <button :class="classBtn" :disabled="isDisabled" :style="{'width':width+'px','height':height+'px','border-radius':radius+'px'}">
+  <button
+    :class="classBtn"
+    :disabled="isDisabled"
+    :style="{
+      width: width + 'px',
+      height: height + 'px',
+      'border-radius': radius + 'px'
+    }"
+    @click="showToast()"
+  >
     <slot></slot>
   </button>
 </template>
@@ -50,6 +59,15 @@ export default {
         }
       ];
       return className;
+    }
+  },
+  methods: {
+    showToast() {
+      this.$toast({
+        tips: `${this.type}提示`,
+        type: this.type,
+        radius: "100"
+      });
     }
   }
 };

@@ -25,15 +25,6 @@ export default {
     return {
       msg: `蚂木的UI组件库`
     };
-  },
-  mounted() {
-    // setTimeout(() => {
-    //   this.$toast({
-    //     tips: "Toast提示",
-    //     type: "success",
-    //     radius: "100"
-    //   });
-    // }, 1200);
   }
 };
 </script>

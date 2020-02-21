@@ -12,7 +12,7 @@ export default {
         data() {
           return {
             tips: options.tips || "", //提示文案
-            duration: options.duration || 3000, //展示时长
+            duration: options.duration || 2000, //展示时长
             type: options.type || "default", //展示类型
             radius: options.radius || "0" //圆角设置
           };
